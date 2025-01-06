@@ -1,0 +1,268 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #000064;
+  border: 1px solid #000000;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 300px;
+  height: 250px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 250px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 250px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+@font-face {
+  font-family: "KlarheitGroteskBook";
+  src: url("fonts/ESKlarheitGrotesk-Bk.woff");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskSemiBold";
+  src: url("fonts/ESKlarheitGrotesk-Smbd.woff");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskExtraBold";
+  src: url("fonts/ESKlarheitGrotesk-Xbd.woff");
+}
+
+
+/* Text */
+.full-width{
+  width: 300px;
+  height: 250px;
+}
+div,
+img {
+  position: absolute;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#endframe {
+  top: 240px;
+  left: 0px;
+  width: 300px;
+  height: 250px;
+  background-color: #ffffff;
+}
+
+.extrabold {
+  font-family: "KlarheitGroteskExtraBold";
+}
+
+.semibold {
+  font-family: "KlarheitGroteskSemiBold";
+}
+
+#endframe_headline {
+  top: 30px;
+  left: 16px;
+  width: 289px;
+  font-size: 25.5px;
+  line-height: 26px;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
+  color: #0000aa;
+}
+
+#endframe_headline span {
+  color: #ff6433;
+}
+
+
+#card {
+  top: -35px;
+  left: 4px;
+  min-width: 283px;
+  min-height: 250px;
+  background-image: url(./images/card.png);
+  background-size: contain;
+  position: absolute;
+}
+
+#shine {
+  width: 300px;
+  height: 250px;
+  background-image: url(./images/shine.png);
+  background-size: contain;
+  background-position: 150px 0px;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/mask.png);
+  -webkit-mask-size: 300px 250px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url(./images/mask.png);
+}
+
+#orange-bar {
+  width: 300px;
+  height: 10px;
+  background-color: #ff6433;
+}
+
+#terms {
+  top: 179px;
+  left: 224px;
+  font-size: 8.5px;
+  color: #0000aa;
+  font-family: "KlarheitGroteskBook", sans-serif;
+}
+
+#cta {
+  text-align: center;
+  transform-origin: center;
+  border-radius: 4px;
+  top: 97px;
+  left: 16px;
+  background: #ff6433;
+  color: #fff;
+  font-family: "KlarheitGroteskSemiBold", sans-serif;
+  font-size: 12.2px;
+  width: 96px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo, #logoBlue {
+  left: 20px;
+  top: 193px;
+  width: 95px;
+}
+#logoBlue{
+  left: 16px;
+  top: 195px;
+}
+.legal{
+  width: 300px;
+  font-size: 6px;
+  font-family: "KlarheitGroteskBook";
+  left: 153px;
+  bottom: 15.5px;
+}
+.copy{
+  font-family: "KlarheitGroteskExtraBold";
+  color: #fff;
+}
+#copy01{
+  font-size: 21.8px;
+  left: 18.5px;
+  top: 15.7px;
+}
+#copy01 .line{
+  background-color: #fff;
+  position: absolute;
+  top: 13.5px;
+  left: 50.5px;
+  width: 78px;
+  height: 2.5px;
+  display: inline-block;
+}
+#copy02{
+  font-size: 21.8px;
+  left: 18.5px;
+  top: 38.7px;
+  letter-spacing: 0.1px;
+}
+#copy02 sup{
+  font-size: 9px;
+  top: 3px;
+  position: absolute;
+  font-family: "KlarheitGroteskSemiBold", sans-serif;
+}
+#copy02 .stop{
+  position: absolute;
+  right: -9.2px;
+  bottom: -0.2px;
+}
+#copy03{
+  font-family: "KlarheitGroteskExtraBold";
+  font-size: 67px;
+  left: 18.5px;
+  top: 30.1px;
+  letter-spacing: -0.8px;
+}
+#copy04{
+  font-size: 22.2px;
+  left: 20.5px;
+  top: 15.4px;
+  letter-spacing: -0.2px;
+}
+#copy05{
+  font-size: 67.2px;
+  letter-spacing: -0.3px;
+  top: 30px;
+  left: 50px;
+  font-family: "KlarheitGroteskExtraBold";
+}
+#copy05 .dollar{
+  font-size: 41.5px;
+  position: absolute;
+  left: -31.5px;
+  top: 11.5px;
+}
+#copy06{
+  font-size: 22.8px;
+  left: 18.5px;
+  top: 103px;
+  letter-spacing: -0.5px;
+}
