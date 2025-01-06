@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #000064;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -80,8 +80,12 @@ video {
   src: url("fonts/ESKlarheitGrotesk-Xbd.woff");
 }
 
-
 /* Text */
+
+ft-video {
+  width: 300px;
+  height: 250px;
+}
 .full-width{
   width: 300px;
   height: 250px;
@@ -123,16 +127,16 @@ img {
 }
 
 #endframe_headline span {
-  color: #ff6433;
+  color: #fb3186;
 }
 
 
 #card {
-  top: -35px;
-  left: 4px;
-  min-width: 283px;
-  min-height: 250px;
-  background-image: url(./images/card.png);
+  top: 97px;
+  left: 155px;
+  min-width: 123px;
+  min-height: 129px;
+  background: url(./images/card.png) left top no-repeat;
   background-size: contain;
   position: absolute;
 }
@@ -155,12 +159,12 @@ img {
 #orange-bar {
   width: 300px;
   height: 10px;
-  background-color: #ff6433;
+  background-color: #fb3186;
 }
 
 #terms {
-  top: 179px;
-  left: 224px;
+  top: 175px;
+  left: 227px;
   font-size: 8.5px;
   color: #0000aa;
   font-family: "KlarheitGroteskBook", sans-serif;
@@ -170,13 +174,13 @@ img {
   text-align: center;
   transform-origin: center;
   border-radius: 4px;
-  top: 97px;
+  top: 98px;
   left: 16px;
-  background: #ff6433;
+  background: #fb3186;
   color: #fff;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
   font-size: 12.2px;
-  width: 96px;
+  width: 98px;
   height: 32px;
   display: flex;
   justify-content: center;
@@ -184,9 +188,9 @@ img {
 }
 
 #logo, #logoBlue {
-  left: 20px;
-  top: 193px;
-  width: 95px;
+  left: 15px;
+  top: 196px;
+  width: 96px;
 }
 #logoBlue{
   left: 16px;
@@ -194,76 +198,33 @@ img {
 }
 .legal{
   width: 300px;
-  font-size: 6px;
+  font-size: 8.5px;
   font-family: "KlarheitGroteskBook";
-  left: 153px;
-  bottom: 15.5px;
-  color: #0000aa;
-}
-.copy{
-  font-family: "KlarheitGroteskExtraBold";
+  left: 86.5px;
+  top: 173.2px;
   color: #fff;
 }
+.copy{
+  color: #fff;
+  font-family: "KlarheitGroteskExtraBold";
+}
 #copy01{
-  font-size: 21.8px;
-  left: 18.5px;
-  top: 15.7px;
-}
-#copy01 .line{
-  background-color: #fff;
-  position: absolute;
-  top: 13.5px;
-  left: 50.5px;
-  width: 78px;
-  height: 2.5px;
-  display: inline-block;
-}
-#copy02{
-  font-size: 21.8px;
-  left: 18.5px;
-  top: 38.7px;
-  letter-spacing: 0.1px;
-}
-#copy02 sup{
-  font-size: 9px;
-  top: 3px;
-  position: absolute;
-  font-family: "KlarheitGroteskSemiBold", sans-serif;
-}
-#copy02 .stop{
-  position: absolute;
-  right: -9.2px;
-  bottom: -0.2px;
-}
-#copy03{
-  font-family: "KlarheitGroteskExtraBold";
-  font-size: 67px;
-  left: 18.5px;
-  top: 30.1px;
-  letter-spacing: -0.8px;
-}
-#copy04{
-  font-size: 22.2px;
-  left: 20.5px;
-  top: 15.4px;
-  letter-spacing: -0.2px;
-}
-#copy05{
-  font-size: 67.2px;
+  font-size: 26px;
+  left: 13.5px;
+  top: 28.5px;
   letter-spacing: -0.3px;
-  top: 30px;
-  left: 50px;
-  font-family: "KlarheitGroteskExtraBold";
+  line-height: 27px;
 }
-#copy05 .dollar{
-  font-size: 41.5px;
-  position: absolute;
-  left: -31.5px;
-  top: 11.5px;
+
+#copy02{
+  font-size: 26px;
+  left: 13.5px;
+  top: 28.5px;
+  letter-spacing: -0.3px;
+  line-height: 27px;
 }
-#copy06{
-  font-size: 22.8px;
-  left: 18.5px;
-  top: 103px;
-  letter-spacing: -0.5px;
+.first-card{
+  width: 122px;
+  top: 95px;
+  left: 15px;
 }
