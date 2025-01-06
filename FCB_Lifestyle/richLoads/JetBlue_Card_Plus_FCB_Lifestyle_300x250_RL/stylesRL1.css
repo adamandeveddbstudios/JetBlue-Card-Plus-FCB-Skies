@@ -118,7 +118,7 @@ img {
 
 #endframe_headline {
   top: 30px;
-  left: 15px;
+  left: 16px;
   width: 289px;
   font-size: 25.5px;
   line-height: 26px;
@@ -175,7 +175,7 @@ img {
   transform-origin: center;
   border-radius: 4px;
   top: 98px;
-  left: 15px;
+  left: 16px;
   background: #fb3186;
   color: #fff;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
@@ -193,8 +193,8 @@ img {
   width: 96px;
 }
 #logoBlue{
-  left: 15px;
-  top: 196px;
+  left: 16px;
+  top: 193px;
 }
 .legal{
   width: 300px;

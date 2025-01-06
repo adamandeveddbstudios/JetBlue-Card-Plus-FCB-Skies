@@ -190,7 +190,7 @@ img {
 }
 #logoBlue{
   left: 16px;
-  top: 195px;
+  top: 193px;
 }
 .legal{
   width: 300px;
@@ -198,6 +198,7 @@ img {
   font-family: "KlarheitGroteskBook";
   left: 153px;
   bottom: 15.5px;
+  color: #0000aa;
 }
 .copy{
   font-family: "KlarheitGroteskExtraBold";
