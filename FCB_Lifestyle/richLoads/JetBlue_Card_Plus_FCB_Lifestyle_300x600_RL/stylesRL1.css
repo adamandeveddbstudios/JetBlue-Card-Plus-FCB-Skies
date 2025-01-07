@@ -1,0 +1,229 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #000064;
+  /* border: 1px solid #000000; */
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 300px;
+  height: 600px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+@font-face {
+  font-family: "KlarheitGroteskBook";
+  src: url("fonts/ESKlarheitGrotesk-Bk.woff");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskSemiBold";
+  src: url("fonts/ESKlarheitGrotesk-Smbd.woff");
+}
+
+@font-face {
+  font-family: "KlarheitGroteskExtraBold";
+  src: url("fonts/ESKlarheitGrotesk-Xbd.woff");
+}
+
+/* Text */
+
+ft-video {
+  width: 300px;
+  height: 600px;
+}
+.full-width{
+  width: 300px;
+  height: 600px;
+}
+div,
+img {
+  position: absolute;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#endframe {
+  top: 585px;
+  left: 0px;
+  width: 300px;
+  height: 600px;
+  background-color: #ffffff;
+}
+
+.extrabold {
+  font-family: "KlarheitGroteskExtraBold";
+}
+
+.semibold {
+  font-family: "KlarheitGroteskSemiBold";
+}
+
+#endframe_headline {
+  top: 63px;
+  left: 20px;
+  width: 289px;
+  font-size: 37.5px;
+  line-height: 41.6px;
+  font-family: "KlarheitGroteskExtraBold", sans-serif;
+  color: #0000aa;
+}
+
+#endframe_headline span {
+  color: #fb3186;
+}
+
+
+#card {
+  top: 149px;
+  left: -4px;
+  min-width: 400px;
+  min-height: 740px;
+  background: url(./images/card.png) left top no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+#shine {
+  width: 300px;
+  height: 600px;
+  top: 3px;
+  background-image: url(./images/shine.png);
+  background-size: 190px;
+  background-position: -160px 175px;
+  background-repeat: no-repeat;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/mask.png);
+  -webkit-mask-size: 300px 600px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: left;
+  mask-image: url(./images/mask.png);
+}
+
+#orange-bar {
+  width: 300px;
+  height: 16px;
+  background-color: #fb3186;
+}
+
+#terms {
+  top: 481px;
+  left: 202px;
+  font-size: 10.8px;
+  color: #0000aa;
+  font-family: "KlarheitGroteskBook", sans-serif;
+}
+
+#cta {
+  text-align: center;
+  transform-origin: center;
+  border-radius: 4px;
+  top: 256px;
+  left: 21px;
+  background: #fb3186;
+  color: #fff;
+  font-family: "KlarheitGroteskSemiBold", sans-serif;
+  font-size: 14.4px;
+  width: 114px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo, #logoBlue {
+  left: 21px;
+  top: 541px;
+  width: 114px;
+}
+
+.legal{
+  width: 300px;
+  font-size: 9px;
+  font-family: "KlarheitGroteskBook";
+  left: 164px;
+  top: 268.2px;
+  color: #fff;
+}
+.copy{
+  color: #fff;
+  font-family: "KlarheitGroteskExtraBold";
+}
+#copy01{
+  font-size: 29.3px;
+  left: 19px;
+  top: 58px;
+  letter-spacing: -0.2px;
+  line-height: 35.2px;
+}
+
+#copy02{
+  font-size: 29.3px;
+  left: 19px;
+  top: 58px;
+  letter-spacing: -0.2px;
+  line-height: 35.3px;
+}
+.first-card{
+  width: 198px;
+  top: 143px;
+  left: 21px;
+}
