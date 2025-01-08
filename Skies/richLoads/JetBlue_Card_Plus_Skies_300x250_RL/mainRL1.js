@@ -21,20 +21,21 @@ myFT.on('instantads', function () {
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  tl.set(['#copy01', '#copy02'], { y: '50', ease: "expo.out" })
-  tl.set(['#copy03'], { y: '100', ease: "expo.out" })
-  tl.set(['#copy04', '#copy05', '#copy06'], { y: '50', ease: "expo.out" })
+  // tl.set(['#copy01', '#copy02'], { y: '30', ease: Power1.easeInOut })
+  
+  tl.set(['#copy03'], { y: '100', ease: Power1.easeInOut })
+  tl.set(['#copy04', '#copy05', '#copy06'], { y: '50', ease: Power1.easeInOut })
   
   tl.addLabel('frame1', 0)
-    .to(['#copy01', '#copy02'], 1, { autoAlpha: 1, y:'0', ease: "expo.out" }, 'frame1+=0.5')
-    .to('#copy02', 1, {y:'65'}, 'frame1+=2.5')
-    .to(['#copy03'], 1, { autoAlpha: 1, y:'0', ease: "expo.out" }, 'frame1+=3.5')
-    .to(['#copy01', '#copy02', '#copy03'], 0.3, {autoAlpha:0}, 'frame1+=5.5')
+    // .to(['#copy01', '#copy02'], 1, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame1+=0.5')
+    .to('#copy02', 0.5, {y:'65', ease: Power1.easeInOut}, 'frame1+=0.7')
+    .to(['#copy03'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame1+=1')
+    .to(['#copy01', '#copy02', '#copy03'], 0.3, {autoAlpha:0, ease: Power1.easeInOut}, 'frame1+=4')
     
-    tl.addLabel('frame2', 6)
-    .to(['#copy04', '#copy05', '#copy06'], 1, { autoAlpha: 1, y:'0', ease: "expo.out" }, 'frame2+=0.5')
+    tl.addLabel('frame2', 4.5)
+    .to(['#copy04', '#copy05', '#copy06'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame2')
     .to('#legal1', 0.3, {autoAlpha:0}, 'frame2')
-    .to('#endframe', 1, { top: 0, ease: "expo.out" }, 'frame2+=4')
+    .to('#endframe', 1, { top: 0, ease: Power1.easeInOut }, 'frame2+=3.5')
     .to('#shine', 0.5, {backgroundPosition: '450px 0px'});
 
 }

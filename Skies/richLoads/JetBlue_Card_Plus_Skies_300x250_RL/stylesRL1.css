@@ -114,7 +114,7 @@ img {
 
 #endframe_headline {
   top: 30px;
-  left: 16px;
+  left: 15px;
   width: 289px;
   font-size: 25.5px;
   line-height: 26px;
@@ -170,13 +170,13 @@ img {
   text-align: center;
   transform-origin: center;
   border-radius: 4px;
-  top: 97px;
-  left: 16px;
+  top: 98px;
+  left: 15px;
   background: #ff6433;
   color: #fff;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
   font-size: 12.2px;
-  width: 96px;
+  width: 98px;
   height: 32px;
   display: flex;
   justify-content: center;
@@ -189,8 +189,9 @@ img {
   width: 95px;
 }
 #logoBlue{
-  left: 16px;
-  top: 193px;
+  left: 15px;
+  top: 196px;
+  width: 96px;
 }
 .legal{
   width: 300px;
@@ -229,6 +230,7 @@ img {
   top: 3px;
   position: absolute;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
+  right: -5px;
 }
 #copy02 .stop{
   position: absolute;
