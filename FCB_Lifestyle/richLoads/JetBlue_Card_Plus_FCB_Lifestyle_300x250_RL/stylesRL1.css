@@ -118,7 +118,7 @@ img {
 
 #endframe_headline {
   top: 30px;
-  left: 16px;
+  left: 15px;
   width: 289px;
   font-size: 25.5px;
   line-height: 26px;
@@ -133,8 +133,8 @@ img {
 
 #card {
   top: 97px;
-  left: 155px;
-  min-width: 123px;
+  left: 148px;
+  min-width: 128px;
   min-height: 129px;
   background: url(./images/card.png) left top no-repeat;
   background-size: contain;
@@ -163,8 +163,8 @@ img {
 }
 
 #terms {
-  top: 175px;
-  left: 227px;
+  top: 179px;
+  left: 224px;
   font-size: 8.5px;
   color: #0000aa;
   font-family: "KlarheitGroteskBook", sans-serif;
@@ -175,7 +175,7 @@ img {
   transform-origin: center;
   border-radius: 4px;
   top: 98px;
-  left: 16px;
+  left: 15px;
   background: #fb3186;
   color: #fff;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
@@ -191,10 +191,6 @@ img {
   left: 15px;
   top: 196px;
   width: 96px;
-}
-#logoBlue{
-  left: 16px;
-  top: 193px;
 }
 .legal{
   width: 300px;
