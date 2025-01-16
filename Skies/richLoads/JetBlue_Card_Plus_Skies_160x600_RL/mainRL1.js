@@ -26,7 +26,7 @@ function animate() {
   tl.set(['#copy04', '#copy05', '#copy06'], { y: '50', ease: Power1.easeInOut })
   
   tl.addLabel('frame1', 0)
-    .to('#copy02', 0.5, {y:'65', ease: Power1.easeInOut}, 'frame1+=0.7')
+    .to('#copy02', 0.5, {y:'49', ease: Power1.easeInOut}, 'frame1+=0.7')
     .to(['#copy03'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame1+=1')
     .to(['#copy01', '#copy02', '#copy03'], 0.3, {autoAlpha:0, ease: Power1.easeInOut}, 'frame1+=4')
     
@@ -34,7 +34,7 @@ function animate() {
     .to(['#copy04', '#copy05', '#copy06'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame2')
     .to('#legal1', 0.3, {autoAlpha:0}, 'frame2')
     .to('#endframe', 1, { top: 0, ease: Power1.easeInOut }, 'frame2+=3.5')
-    .to('#shine', 0.5, {backgroundPosition: '450px 0px'});
+    .to('#shine', 1, {backgroundPosition: '270px 0px'});
 
 }
 
