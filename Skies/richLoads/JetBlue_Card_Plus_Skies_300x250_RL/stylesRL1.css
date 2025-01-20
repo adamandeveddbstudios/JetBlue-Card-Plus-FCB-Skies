@@ -127,10 +127,10 @@ img {
 }
 
 #card {
-  top: 100px;
-  left: 157px;
-  min-width: 122px;
-  min-height: 129px;
+  top: 98px;
+  left: 139px;
+  min-width: 147px;
+  min-height: 117px;
   background: url(./images/card.png) left top no-repeat;
   background-size: contain;
   position: absolute;
@@ -158,8 +158,8 @@ img {
 }
 
 #terms {
-  top: 178px;
-  left: 227px;
+  top: 191px;
+  left: 234px;
   font-size: 8.5px;
   color: #0000aa;
   font-family: "KlarheitGroteskSemiBold";
@@ -190,7 +190,7 @@ img {
 }
 #logoBlue{
   left: 16px;
-  top: 193px;
+  top: 198px;
   width: 96px;
 }
 .legal {
@@ -231,7 +231,7 @@ img {
   top: 2px;
   right: -5px;
   position: absolute;
-  font-family: "KlarheitGroteskSemiBold", sans-serif;
+  font-family: "KlarheitGroteskBook";
 }
 #copy02 .stop {
   position: absolute;
