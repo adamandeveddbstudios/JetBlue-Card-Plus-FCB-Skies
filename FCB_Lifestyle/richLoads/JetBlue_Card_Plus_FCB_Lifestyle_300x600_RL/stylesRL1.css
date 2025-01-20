@@ -117,13 +117,14 @@ img {
 }
 
 #endframe_headline {
-  top: 63px;
-  left: 18px;
-  width: 289px;
-  font-size: 37.5px;
-  line-height: 41.6px;
+  top: 64px;
+  left: 27px;
+  width: 300px;
+  font-size: 38.4px;
+  line-height: 41.5px;
   font-family: "KlarheitGroteskExtraBold", sans-serif;
   color: #0000aa;
+  letter-spacing: -0.3px;
 }
 
 #endframe_headline span {
@@ -176,8 +177,8 @@ img {
   text-align: center;
   transform-origin: center;
   border-radius: 6px;
-  top: 256px;
-  left: 21px;
+  top: 255px;
+  left: 27px;
   background: #fb3186;
   color: #fff;
   font-family: "KlarheitGroteskSemiBold", sans-serif;
@@ -194,7 +195,11 @@ img {
   top: 536px;
   width: 114px;
 }
-
+#logoBlue{
+  left: 28px;
+  top: 520.5px;
+  width: 114px;
+}
 .legal{
   width: 300px;
   font-size: 8.8px;
