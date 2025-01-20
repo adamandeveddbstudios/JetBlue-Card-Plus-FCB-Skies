@@ -34,7 +34,7 @@ function animate() {
     .to(['#copy04', '#copy05', '#copy06'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame2')
     .to('#legal1', 0.3, {autoAlpha:0}, 'frame2')
     .to('#endframe', 1, { top: 0, ease: Power1.easeInOut }, 'frame2+=3.5')
-    .to('#shine', 0.5, {backgroundPosition: '270px 175px', repeat:-1, repeatDelay:5});
+    .to('#shine', 0.5, {backgroundPosition: '270px 175px'});
 
 }
 

@@ -221,7 +221,7 @@ img {
   font-family: "KlarheitGroteskExtraBold";
 }
 #copy01{
-  font-size: 21px;
+  font-size: 25px;
   left: 26.5px;
   top: 31.2px;
   letter-spacing: -0.3px;
@@ -230,16 +230,16 @@ img {
 #copy01 .line{
   background-color: #fff;
   position: absolute;
-  top: 13px;
-  left: 48px;
-  width: 72px;
-  height: 2px;
+  top: 12.5px;
+  left: 58px;
+  width: 85px;
+  height: 2.5px;
   display: inline-block;
 }
 #copy01 sup{
-  font-size: 12px;
-  top: -4px;
-  right: -4px;
+  font-size: 14px;
+  top: -5px;
+  right: -5px;
   position: absolute;
   font-family: "KlarheitGroteskBook";
 }

@@ -162,12 +162,11 @@ img {
 }
 
 #terms {
-  top: 392.7px;
+  top: 394px;
   left: 113px;
-  font-size: 6px;
+  font-size: 6.2px;
   color: #0000aa;
-  font-family: "KlarheitGroteskSemiBold";
-  width: 100%;
+  font-family: "KlarheitGroteskSemiBold", sans-serif;
 }
 
 #cta {
