@@ -127,10 +127,10 @@ img {
 }
 
 #card {
-  top: 321px;
-  left: 28px;
-  min-width: 246px;
-  min-height: 156px;
+  top: 325px;
+  left: 29px;
+  min-width: 245px;
+  min-height: 740px;
   background: url(./images/card.png) left top no-repeat;
   background-size: contain;
   position: absolute;
@@ -139,18 +139,19 @@ img {
 #shine {
   width: 300px;
   height: 600px;
+  top: 3px;
   background-image: url(./images/shine.png);
-  background-size: contain;
-  background-position: 150px 0px;
+  background-size: 190px;
+  background-position: -160px 175px;
+  background-repeat: no-repeat;
   position: absolute;
   mix-blend-mode: soft-light;
   -webkit-mask-image: url(./images/mask.png);
-  -webkit-mask-size: 300px 250px;
+  -webkit-mask-size: 300px 600px;
   -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
+  -webkit-mask-position: left;
   mask-image: url(./images/mask.png);
 }
-
 #orange-bar {
   width: 300px;
   height: 16px;
@@ -158,12 +159,11 @@ img {
 }
 
 #terms {
-  top: 476.5px;
-  left: 208px;
-  font-size: 11px;
+  top: 480px;
+  left: 207px;
+  font-size: 10.8px;
   color: #0000aa;
   font-family: "KlarheitGroteskSemiBold";
-  width: 100%;
 }
 
 #cta {
