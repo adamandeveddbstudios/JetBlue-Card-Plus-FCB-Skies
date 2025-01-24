@@ -208,7 +208,7 @@ img {
     font-family: "KlarheitGroteskSemiBold", sans-serif;
     left: 448px;
     top: 78.5px;
-    color: #000064;
+    color: #fff;
     z-index: 11111;
     width: 728px;
 }
@@ -309,4 +309,7 @@ img {
   width: 94.6px;
   top: 16.3px;
   left: 484px;
+}
+.blue{
+  color: #0000aa!important;
 }

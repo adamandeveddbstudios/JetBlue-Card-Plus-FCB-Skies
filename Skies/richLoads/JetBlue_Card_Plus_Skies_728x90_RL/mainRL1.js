@@ -34,6 +34,7 @@ function animate() {
     .to(['#copy01', 'copy02', '#copy03', '#bg',],{ autoAlpha:0},'frame2')
     .to('#endframe', 1, { left: 0, ease: Power1.easeInOut }, '<')
     .to('#endframe_headline',{ autoAlpha:1},'<')
+    .to('#legal2',{ color:"#000064"},'<')
     .to('#cta',{ autoAlpha:1},'<')
     .to('#shine', 0.5, {autoAlpha:1, backgroundPosition: '540px 5px'});
 
