@@ -130,11 +130,10 @@ img {
   color: #ff6433;
 }
 
-
 #card {
   top: 10px;
   left: 465px;
-  min-width: 613px;
+  min-width: 110px;
   min-height: 65.5px;
   background: url(./images/card.png) left top no-repeat;
   background-size: contain;
@@ -148,6 +147,7 @@ img {
   height: 90px;
   background-image: url(./images/shine.png);
   background-position: 300px 5px;
+  background-size:1000px;
   background-repeat: no-repeat;
   position: absolute;
   mix-blend-mode: soft-light;

@@ -130,7 +130,7 @@ img {
   top: 325px;
   left: 29px;
   min-width: 245px;
-  min-height: 740px;
+  min-height: 160px;
   background: url(./images/card.png) left top no-repeat;
   background-size: contain;
   position: absolute;
@@ -140,6 +140,7 @@ img {
   width: 300px;
   height: 600px;
   top: 3px;
+  left: 10px;
   background-image: url(./images/shine.png);
   background-size: 190px;
   background-position: -160px 175px;
@@ -151,7 +152,7 @@ img {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: left;
   mask-image: url(./images/mask.png);
-}
+} 
 #orange-bar {
   width: 300px;
   height: 16px;
