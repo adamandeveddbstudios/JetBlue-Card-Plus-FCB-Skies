@@ -165,7 +165,7 @@ img {
 }
 
 #terms {
-  top: 76.2px;
+  top: 77.5px;
   left: 545px;
   font-size: 5.6px;
   color: #0000aa;
@@ -204,13 +204,13 @@ img {
 
 .legal{
   width: 80px;
-    font-size: 6.1px;
-    font-family: "KlarheitGroteskSemiBold", sans-serif;
-    left: 448px;
-    top: 78.5px;
-    color: #fff;
-    z-index: 11111;
-    width: 728px;
+  font-size: 6.1px;
+  font-family: "KlarheitGroteskSemiBold", sans-serif;
+  left: 448px;
+  top: 77.5px;
+  color: #fff;
+  z-index: 11111;
+  width: 728px;
 }
 #legal2{
   position: absolute;
