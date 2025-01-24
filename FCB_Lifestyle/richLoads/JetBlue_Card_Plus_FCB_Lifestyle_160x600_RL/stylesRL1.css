@@ -224,9 +224,11 @@ img {
   letter-spacing: 0.3px;
   line-height: 30.7px;
 }
-
 .first-card{
   width: 137px;
   top: 228px;
   left: 13px;
+}
+.blue{
+  color: #0000aa!important;
 }
