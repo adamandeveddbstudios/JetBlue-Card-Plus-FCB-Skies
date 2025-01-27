@@ -21,16 +21,14 @@ myFT.on('instantads', function () {
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-  tl.set(['#copy02', '#copy03'], { y: '30', ease: Power1.easeInOut})
+  tl.set(['#copy03'], { y: '30', ease: Power1.easeInOut})
   tl.addLabel('frame1', 0)
-  .to(['#copy01'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut },'frame1+=0.5')
-  .to(['#copy01'], 0.3, {autoAlpha:0, ease: Power1.easeInOut}, 'frame1+=3.5')
-  .to(['#copy02'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame1+=3.5')
-  .to(['#copy02', '#legal1'], 0.3, {autoAlpha:0, ease: Power1.easeInOut}, 'frame1+=6.5')
-  .to(['#copy03'], 0.3, {autoAlpha:1, y:'0', ease: Power1.easeInOut}, 'frame1++9.5')
+  .to(['#copy02'], 0.5, { autoAlpha: 1, y:'0', ease: Power1.easeInOut }, 'frame1+=0.5')
+  .to(['#copy02', '#legal1'], 0.3, {autoAlpha:0, ease: Power1.easeInOut}, 'frame1+=3.5')
+  .to(['#copy03'], 0.3, {autoAlpha:1, y:'0', ease: Power1.easeInOut}, 'frame1+=3.7')
   .to(['#legal2'], 0.3, {autoAlpha:1, ease: Power1.easeInOut}, '<')
 
-  tl.addLabel('frame2', 12)
+  tl.addLabel('frame2', 8)
     .to(['#copy01', 'copy02', '#copy03', '#bg',],{ autoAlpha:0},'frame2')
     .to('#endframe', 1, { left: 0, ease: Power1.easeInOut }, '<')
     .to('#endframe_headline',{ autoAlpha:1},'<')
