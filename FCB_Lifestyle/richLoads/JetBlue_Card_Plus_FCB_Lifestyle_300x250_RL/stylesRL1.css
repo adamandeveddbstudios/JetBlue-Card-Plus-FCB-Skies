@@ -200,6 +200,7 @@ img {
   left: 86.5px;
   top: 174px;
   color: #fff;
+  text-shadow: #000 0 0 3px;
 }
 .copy{
   color: #fff;
